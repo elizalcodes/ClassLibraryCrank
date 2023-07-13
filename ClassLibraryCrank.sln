@@ -5,7 +5,7 @@ VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibraryCrank", "ClassLibraryCrank\ClassLibraryCrank.csproj", "{67B1D22A-0AC0-40F8-94E2-42741FBD5D9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenchmarkLibrary2", "BenchmarkLibrary2\BenchmarkLibrary2.csproj", "{8549C471-CDCA-476C-A895-22EBD8E3CAC6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BenchmarkLibrary", "BenchmarkLibrary\BenchmarkLibrary.csproj", "{8549C471-CDCA-476C-A895-22EBD8E3CAC6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

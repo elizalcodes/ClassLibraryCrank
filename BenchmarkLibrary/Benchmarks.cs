@@ -1,6 +1,6 @@
 ﻿using BenchmarkDotNet.Attributes;
 
-namespace BenchmarkLibrary2;
+namespace BenchmarkLibrary;
 
 public class Benchmarks
 {
