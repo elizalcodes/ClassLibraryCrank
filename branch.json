@@ -1,0 +1,252 @@
+{
+  "Benchmarks": [
+    {
+      "DisplayInfo": "Benchmarks.BenchmarkExisting: Job-CWXQNU(Toolchain=InProcessEmitToolchain, IterationCount=3, LaunchCount=1, WarmupCount=3) [Number=4]",
+      "Namespace": "BenchmarkLibrary",
+      "Type": "Benchmarks",
+      "Method": "BenchmarkExisting",
+      "MethodTitle": "BenchmarkExisting",
+      "Parameters": "Number=4",
+      "FullName": "BenchmarkLibrary.Benchmarks.BenchmarkExisting(Number: 4)",
+      "HardwareIntrinsics": "",
+      "Statistics": {
+        "OriginalValues": [
+          20.892107486724854,
+          19.75807547569275,
+          21.10660970211029
+        ],
+        "N": 3,
+        "Min": 19.75807547569275,
+        "LowerFence": 19.313690811395645,
+        "Q1": 20.3250914812088,
+        "Median": 20.892107486724854,
+        "Mean": 20.585597554842632,
+        "Q3": 20.999358594417572,
+        "UpperFence": 22.010759264230728,
+        "Max": 21.10660970211029,
+        "InterquartileRange": 0.6742671132087708,
+        "LowerOutliers": [],
+        "UpperOutliers": [],
+        "AllOutliers": [],
+        "StandardError": 0.4183688140511602,
+        "Variance": 0.5250973937117228,
+        "StandardDeviation": 0.7246360422389455,
+        "Skewness": -0.3473059282491012,
+        "Kurtosis": 0.6666666666666687,
+        "ConfidenceInterval": {
+          "N": 3,
+          "Mean": 20.585597554842632,
+          "StandardError": 0.4183688140511602,
+          "Level": 12,
+          "Margin": 13.220058988273879,
+          "Lower": 7.365538566568754,
+          "Upper": 33.80565654311651
+        },
+        "Percentiles": {
+          "P0": 19.75807547569275,
+          "P25": 20.3250914812088,
+          "P50": 20.892107486724854,
+          "P67": 20.965038239955902,
+          "P80": 21.020808815956116,
+          "P85": 21.04225903749466,
+          "P90": 21.063709259033203,
+          "P95": 21.085159480571747,
+          "P100": 21.10660970211029
+        }
+      },
+      "Memory": {
+        "Gen0Collections": 577,
+        "Gen1Collections": 0,
+        "Gen2Collections": 0,
+        "TotalOperations": 33554432,
+        "BytesAllocatedPerOperation": 72
+      }
+    },
+    {
+      "DisplayInfo": "Benchmarks.BenchmarkNew: Job-CWXQNU(Toolchain=InProcessEmitToolchain, IterationCount=3, LaunchCount=1, WarmupCount=3) [Number=4]",
+      "Namespace": "BenchmarkLibrary",
+      "Type": "Benchmarks",
+      "Method": "BenchmarkNew",
+      "MethodTitle": "BenchmarkNew",
+      "Parameters": "Number=4",
+      "FullName": "BenchmarkLibrary.Benchmarks.BenchmarkNew(Number: 4)",
+      "HardwareIntrinsics": "",
+      "Statistics": {
+        "OriginalValues": [
+          158619775,
+          159597600,
+          159121875
+        ],
+        "N": 3,
+        "Min": 158619775,
+        "LowerFence": 158137456.25,
+        "Q1": 158870825,
+        "Median": 159121875,
+        "Mean": 159113083.33333334,
+        "Q3": 159359737.5,
+        "UpperFence": 160093106.25,
+        "Max": 159597600,
+        "InterquartileRange": 488912.5,
+        "LowerOutliers": [],
+        "UpperOutliers": [],
+        "AllOutliers": [],
+        "StandardError": 282307.9894419883,
+        "Variance": 239093402708.3333,
+        "StandardDeviation": 488971.7810961419,
+        "Skewness": -0.017974093521678842,
+        "Kurtosis": 0.6666666666666683,
+        "ConfidenceInterval": {
+          "N": 3,
+          "Mean": 159113083.33333334,
+          "StandardError": 282307.9894419883,
+          "Level": 12,
+          "Margin": 8920665.56573622,
+          "Lower": 150192417.76759714,
+          "Upper": 168033748.89906955
+        },
+        "Percentiles": {
+          "P0": 158619775,
+          "P25": 158870825,
+          "P50": 159121875,
+          "P67": 159283621.5,
+          "P80": 159407310,
+          "P85": 159454882.5,
+          "P90": 159502455,
+          "P95": 159550027.5,
+          "P100": 159597600
+        }
+      },
+      "Memory": {
+        "Gen0Collections": 0,
+        "Gen1Collections": 0,
+        "Gen2Collections": 0,
+        "TotalOperations": 4,
+        "BytesAllocatedPerOperation": 172
+      }
+    },
+    {
+      "DisplayInfo": "Benchmarks.BenchmarkExisting: Job-CWXQNU(Toolchain=InProcessEmitToolchain, IterationCount=3, LaunchCount=1, WarmupCount=3) [Number=6]",
+      "Namespace": "BenchmarkLibrary",
+      "Type": "Benchmarks",
+      "Method": "BenchmarkExisting",
+      "MethodTitle": "BenchmarkExisting",
+      "Parameters": "Number=6",
+      "FullName": "BenchmarkLibrary.Benchmarks.BenchmarkExisting(Number: 6)",
+      "HardwareIntrinsics": "",
+      "Statistics": {
+        "OriginalValues": [
+          20.027542114257812,
+          19.75123882293701,
+          19.88217830657959
+        ],
+        "N": 3,
+        "Min": 19.75123882293701,
+        "LowerFence": 19.6094810962677,
+        "Q1": 19.8167085647583,
+        "Median": 19.88217830657959,
+        "Mean": 19.886986414591473,
+        "Q3": 19.9548602104187,
+        "UpperFence": 20.1620876789093,
+        "Max": 20.027542114257812,
+        "InterquartileRange": 0.1381516456604004,
+        "LowerOutliers": [],
+        "UpperOutliers": [],
+        "AllOutliers": [],
+        "StandardError": 0.07979811114236407,
+        "Variance": 0.019103215625667264,
+        "StandardDeviation": 0.1382143828466027,
+        "Skewness": 0.03474522219937793,
+        "Kurtosis": 0.6666666666666655,
+        "ConfidenceInterval": {
+          "N": 3,
+          "Mean": 19.886986414591473,
+          "StandardError": 0.07979811114236407,
+          "Level": 12,
+          "Margin": 2.5215448690826303,
+          "Lower": 17.365441545508844,
+          "Upper": 22.4085312836741
+        },
+        "Percentiles": {
+          "P0": 19.75123882293701,
+          "P25": 19.8167085647583,
+          "P50": 19.88217830657959,
+          "P67": 19.931602001190186,
+          "P80": 19.969396591186523,
+          "P85": 19.983932971954346,
+          "P90": 19.998469352722168,
+          "P95": 20.01300573348999,
+          "P100": 20.027542114257812
+        }
+      },
+      "Memory": {
+        "Gen0Collections": 577,
+        "Gen1Collections": 0,
+        "Gen2Collections": 0,
+        "TotalOperations": 33554432,
+        "BytesAllocatedPerOperation": 72
+      }
+    },
+    {
+      "DisplayInfo": "Benchmarks.BenchmarkNew: Job-CWXQNU(Toolchain=InProcessEmitToolchain, IterationCount=3, LaunchCount=1, WarmupCount=3) [Number=6]",
+      "Namespace": "BenchmarkLibrary",
+      "Type": "Benchmarks",
+      "Method": "BenchmarkNew",
+      "MethodTitle": "BenchmarkNew",
+      "Parameters": "Number=6",
+      "FullName": "BenchmarkLibrary.Benchmarks.BenchmarkNew(Number: 6)",
+      "HardwareIntrinsics": "",
+      "Statistics": {
+        "OriginalValues": [
+          160152575,
+          158461575,
+          158066350
+        ],
+        "N": 3,
+        "Min": 158066350,
+        "LowerFence": 156699293.75,
+        "Q1": 158263962.5,
+        "Median": 158461575,
+        "Mean": 158893500,
+        "Q3": 159307075,
+        "UpperFence": 160871743.75,
+        "Max": 160152575,
+        "InterquartileRange": 1043112.5,
+        "LowerOutliers": [],
+        "UpperOutliers": [],
+        "AllOutliers": [],
+        "StandardError": 639792.4381847079,
+        "Variance": 1228003091875,
+        "StandardDeviation": 1108153.0092342843,
+        "Skewness": 0.330555986124731,
+        "Kurtosis": 0.6666666666666667,
+        "ConfidenceInterval": {
+          "N": 3,
+          "Mean": 158893500,
+          "StandardError": 639792.4381847079,
+          "Level": 12,
+          "Margin": 20216836.171778113,
+          "Lower": 138676663.8282219,
+          "Upper": 179110336.1717781
+        },
+        "Percentiles": {
+          "P0": 158066350,
+          "P25": 158263962.5,
+          "P50": 158461575,
+          "P67": 159036515,
+          "P80": 159476175,
+          "P85": 159645275,
+          "P90": 159814375,
+          "P95": 159983475,
+          "P100": 160152575
+        }
+      },
+      "Memory": {
+        "Gen0Collections": 0,
+        "Gen1Collections": 0,
+        "Gen2Collections": 0,
+        "TotalOperations": 4,
+        "BytesAllocatedPerOperation": 172
+      }
+    }
+  ]
+}

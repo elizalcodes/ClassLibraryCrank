@@ -1,26 +1,25 @@
 ﻿using BenchmarkDotNet.Attributes;
 
-    namespace BenchmarkLibrary;
+namespace BenchmarkLibrary2;
 
-    public class Benchmarks
+public class Benchmarks
+{
+    private string _data = "";
+
+    [Params(4, 6)] public int Number;
+
+    [GlobalSetup]
+    public void Setup()
     {
-        private string _data = "";
-
-        [Params(4, 6)]
-        public int Number;
-
-        [GlobalSetup]
-        public void Setup()
+        for (int i = 0; i < Number; i++)
         {
-            for (int i = 0; i < Number; i++)
-            {
-                _data += $"{i % 8}";
-            }
+            _data += $"{i % 8}";
         }
-
-        [Benchmark]
-        public string BenchmarkExisting() => ClassLibraryCrank.SomeClass.Method1(_data, 3);
-
-        [Benchmark]
-        public string BenchmarkNew() => ClassLibraryCrank.SomeClass.Method2(_data);
     }
+
+    [Benchmark]
+    public string BenchmarkExisting() => ClassLibraryCrank.SomeClass.Method1(_data, 3);
+
+    // [Benchmark]
+    // public string BenchmarkNew() => ClassLibraryCrank.SomeClass.Method2(_data);
+}

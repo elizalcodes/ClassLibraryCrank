@@ -1,0 +1,128 @@
+{
+  "Benchmarks": [
+    {
+      "DisplayInfo": "Benchmarks.BenchmarkExisting: Job-ZHKMIC(Toolchain=InProcessEmitToolchain, IterationCount=3, LaunchCount=1, WarmupCount=3) [Number=4]",
+      "Namespace": "BenchmarkLibrary",
+      "Type": "Benchmarks",
+      "Method": "BenchmarkExisting",
+      "MethodTitle": "BenchmarkExisting",
+      "Parameters": "Number=4",
+      "FullName": "BenchmarkLibrary.Benchmarks.BenchmarkExisting(Number: 4)",
+      "HardwareIntrinsics": "",
+      "Statistics": {
+        "OriginalValues": [
+          21.09118103981018,
+          21.68332040309906,
+          21.140611171722412
+        ],
+        "N": 3,
+        "Min": 21.09118103981018,
+        "LowerFence": 20.671791583299637,
+        "Q1": 21.115896105766296,
+        "Median": 21.140611171722412,
+        "Mean": 21.305037538210552,
+        "Q3": 21.411965787410736,
+        "UpperFence": 21.856070309877396,
+        "Max": 21.68332040309906,
+        "InterquartileRange": 0.2960696816444397,
+        "LowerOutliers": [],
+        "UpperOutliers": [],
+        "AllOutliers": [],
+        "StandardError": 0.18967892071112233,
+        "Variance": 0.10793427888640869,
+        "StandardDeviation": 0.3285335277964925,
+        "Skewness": 0.37512109664098264,
+        "Kurtosis": 0.6666666666666612,
+        "ConfidenceInterval": {
+          "N": 3,
+          "Mean": 21.305037538210552,
+          "StandardError": 0.18967892071112233,
+          "Level": 12,
+          "Margin": 5.993674567546814,
+          "Lower": 15.311362970663737,
+          "Upper": 27.298712105757367
+        },
+        "Percentiles": {
+          "P0": 21.09118103981018,
+          "P25": 21.115896105766296,
+          "P50": 21.140611171722412,
+          "P67": 21.325132310390472,
+          "P80": 21.4662367105484,
+          "P85": 21.520507633686066,
+          "P90": 21.57477855682373,
+          "P95": 21.629049479961395,
+          "P100": 21.68332040309906
+        }
+      },
+      "Memory": {
+        "Gen0Collections": 577,
+        "Gen1Collections": 0,
+        "Gen2Collections": 0,
+        "TotalOperations": 33554432,
+        "BytesAllocatedPerOperation": 72
+      }
+    },
+    {
+      "DisplayInfo": "Benchmarks.BenchmarkExisting: Job-ZHKMIC(Toolchain=InProcessEmitToolchain, IterationCount=3, LaunchCount=1, WarmupCount=3) [Number=6]",
+      "Namespace": "BenchmarkLibrary",
+      "Type": "Benchmarks",
+      "Method": "BenchmarkExisting",
+      "MethodTitle": "BenchmarkExisting",
+      "Parameters": "Number=6",
+      "FullName": "BenchmarkLibrary.Benchmarks.BenchmarkExisting(Number: 6)",
+      "HardwareIntrinsics": "",
+      "Statistics": {
+        "OriginalValues": [
+          20.69835662841797,
+          21.480929851531982,
+          21.46937847137451
+        ],
+        "N": 3,
+        "Min": 20.69835662841797,
+        "LowerFence": 20.49693763256073,
+        "Q1": 21.08386754989624,
+        "Median": 21.46937847137451,
+        "Mean": 21.216221650441486,
+        "Q3": 21.475154161453247,
+        "UpperFence": 22.062084078788757,
+        "Max": 21.480929851531982,
+        "InterquartileRange": 0.39128661155700684,
+        "LowerOutliers": [],
+        "UpperOutliers": [],
+        "AllOutliers": [],
+        "StandardError": 0.2589539819945173,
+        "Variance": 0.20117149437245038,
+        "StandardDeviation": 0.4485214536367802,
+        "Skewness": -0.38461298772368036,
+        "Kurtosis": 0.6666666666666627,
+        "ConfidenceInterval": {
+          "N": 3,
+          "Mean": 21.216221650441486,
+          "StandardError": 0.2589539819945173,
+          "Level": 12,
+          "Margin": 8.182701009825513,
+          "Lower": 13.033520640615974,
+          "Upper": 29.398922660266997
+        },
+        "Percentiles": {
+          "P0": 20.69835662841797,
+          "P25": 21.08386754989624,
+          "P50": 21.46937847137451,
+          "P67": 21.47330594062805,
+          "P80": 21.476309299468994,
+          "P85": 21.47746443748474,
+          "P90": 21.47861957550049,
+          "P95": 21.479774713516235,
+          "P100": 21.480929851531982
+        }
+      },
+      "Memory": {
+        "Gen0Collections": 577,
+        "Gen1Collections": 0,
+        "Gen2Collections": 0,
+        "TotalOperations": 33554432,
+        "BytesAllocatedPerOperation": 72
+      }
+    }
+  ]
+}
