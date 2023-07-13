@@ -2,7 +2,7 @@ jobs:
   lib:
     source:
       localFolder: ./
-      project: BenchmarkLibrary2/BenchmarkLibrary2.csproj
+      project: BenchmarkLibrary/BenchmarkLibrary.csproj
     variables:
       filter: "*"
       jobArg: short
